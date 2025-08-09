@@ -1,0 +1,21 @@
+# --- Frontend ---
+streamlit>=1.38.0
+
+# --- Database & Data Handling ---
+sqlalchemy>=2.0.32
+pandas>=2.2.2
+python-dotenv>=1.0.1
+
+# --- LangGraph (Agent Orchestration) ---
+langgraph>=0.0.66
+langchain>=0.2.11
+langchain-core>=0.2.35
+
+# --- LLM Providers ---
+cohere>=5.3.4
+google-generativeai>=0.7.2
+groq>=0.9.0
+openai>=1.40.2   # required internally by langchain
+
+# --- Optional / Future ---
+mysql-connector-python>=9.0.0   # for Phase 3 MySQL support
